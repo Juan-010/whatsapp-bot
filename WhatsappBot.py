@@ -40,7 +40,7 @@ class NewMessageObserver:
                         chat.send_message("Sistemas de Representacion:")
                         chat.send_message("Zoom: " + sdr)
                         chat.send_message("Profesor: Jorge Mercado")
-                        chat.send_message("Horario: Miercoles de 15:30 a 18:00, o 17:30, 0 17:00, depende del humor del profe")
+                        chat.send_message("Horario: Miercoles de 15:30 a 18:00")
 
                     elif msg[1:] == 'iso':
                         chat.send_message("Ingeniería y Sociedad:")
@@ -63,12 +63,12 @@ class NewMessageObserver:
                     elif msg[1:] == 'fisica' or msg[1:] == 'fisica1' :
                         chat.send_message("Física 1 (Teórico):")
                         chat.send_message("Zoom: " + fisica_t)
-                        chat.send_message("Profesor: Julio César Catán (you know who)")
+                        chat.send_message("Profesor: Julio César Catán")
                         chat.send_message("Horario: Lunes de 9:40 a 12:50\n Jueves de 8 a 9:30")
                         chat.send_message("Análisis Matemático 2 (Práctico):")
                         chat.send_message("Zoom: " + fisica_p)
                         chat.send_message("Profesor: Gabriel Eduardo González")
-                        chat.send_message("Horario: Martes de 8:15 a (supuestamente) 11. Termina 9:30/10 casi siempre")
+                        chat.send_message("Horario: Martes de 8:15 a 11:00")
 
                     elif msg[1:] == 'info' or msg[1:] == 'informatica' or  msg[1:] == 'info1' :
                         chat.send_message("Informática 1 (Teórico):")
@@ -78,7 +78,7 @@ class NewMessageObserver:
                         chat.send_message("Informática 1 (Práctico):")
                         chat.send_message("Zoom: " + info_p)
                         chat.send_message("Profesor: Norma Luz Mascietti")
-                        chat.send_message("Horario: A esta altura, quien sabe. Sabados o Jueves de 11:00 a 12:30")
+                        chat.send_message("Horario: Sabados de 11:00 a 12:50")
 
                     else:
                         chat.send_message("No conozco ese comando pa, pone /help para ver los comandos")
