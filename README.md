@@ -3,7 +3,7 @@ Un pequeño proyecto de un bot para WhatsApp!
 ## ¿Que es esto?
 Un proyecto de practica que hice para probar python, y para ser implementado en el grupo de mi curso de la facu
 ## ¿Puedo usarlo? ¿Como lo descargo?
-Para utilizar este bot, necesitas un telefono celular\n
+Para utilizar este bot, necesitas un telefono celular con WhatsApp instalado y activado  
 Primero debes instalar git 
 ```console
 user@linux:~$ sudo apt install git
