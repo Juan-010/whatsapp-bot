@@ -3,7 +3,8 @@ Un pequeño proyecto de un bot para WhatsApp!
 ## ¿Que es esto?
 Un proyecto de practica que hice para probar python, y para ser implementado en el grupo de mi curso de la facu
 ## ¿Puedo usarlo? ¿Como lo descargo?
-Primero debes instalar git
+Para utilizar este bot, necesitas un telefono celular\n
+Primero debes instalar git 
 ```console
 user@linux:~$ sudo apt install git
 ```
@@ -22,3 +23,4 @@ Y, finalmente, correr el script WhatsappBot.py
 ```console
 user@linux:~$ python3 WhatsappBot.py
 ```
+Solo queda escanear el codigo qr en pantalla, y listo!
